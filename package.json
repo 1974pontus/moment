@@ -1,0 +1,23 @@
+{
+  "name": "moment",
+  "version": "1.0.0",
+  "description": "tesing the framework Moment",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1974pontus/moment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1974pontus/moment/issues"
+  },
+  "homepage": "https://github.com/1974pontus/moment#readme"
+}
