@@ -11,4 +11,17 @@ body {
   text-align: center;
   padding-top: 20rem;
   padding-bottom: 40px;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #66ff99, 0 0 20px #66ff99, 0 0 30px #66ff99,
+      0 0 40px #3dff7e, 0 0 50px #3dff7e, 0 0 60px #3dff7e, 0 0 70px #3dff7e;
+  }
+
+  to {
+    text-shadow: 0 0 20px #66ff99, 0 0 30px #66ff99, 0 0 40px #9affbc,
+      0 0 50px #9affbc, 0 0 60px #9affbc, 0 0 70px #9affbc, 0 0 80px #9affbc;
+  }
 }
