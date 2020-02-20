@@ -25,3 +25,9 @@ body {
       0 0 50px #9affbc, 0 0 60px #9affbc, 0 0 70px #9affbc, 0 0 80px #9affbc;
   }
 }
+
+@media (max-width: 600px) {
+  #clock {
+    padding-top: 2rem;
+  }
+}
