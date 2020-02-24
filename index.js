@@ -1,8 +1,13 @@
 
 function currentTime() {
-    let rightNow = moment().tz('America/New_York').format('MMMM Do YYYY, h:mm:ss a');
+
+
+    let rightNow = moment().tz('Australia/Sydney').format('MMMM Do YYYY, h:mm:ss a'); //DET ÄR HÄR DET HÄNDER!!!
+
+
+
     rightNow = updateTime(rightNow);
-    document.getElementById('clock').innerText = 'New York: ' + ' ' + rightNow;
+    document.getElementById('clock').innerText = 'Sydney: ' + ' ' + rightNow;
     let t = setTimeout(currentTime, 1000);
 }
 
@@ -16,3 +21,5 @@ function updateTime(k) {
 }
 
 currentTime();
+
+// 'Australia/Sydney'??
