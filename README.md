@@ -12,3 +12,7 @@ put this in the HTML file:
 ### repo
 
     https://github.com/1974pontus/moment
+
+### gitHub pages
+
+    https://1974pontus.github.io/moment/
